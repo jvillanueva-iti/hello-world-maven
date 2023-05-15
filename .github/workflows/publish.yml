@@ -25,4 +25,4 @@ jobs:
           #MAVEN_USERNAME: sonatype_iti
           #MAVEN_CENTRAL_TOKEN: bieth7Eiyaixep5+
           MAVEN_GPG_PASSPHRASE: Iti.2023
-      run: mvn verify -P release
+      run: mvn verify -P release 
